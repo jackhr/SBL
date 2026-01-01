@@ -1,0 +1,893 @@
+/*
+* GREEN - #34936D
+* GREY - #697879
+* BLUE - #78BABF
+* LIGHT BLUE - #CDD8D9
+* WHITE - #E7E5DD
+* BLACK - #1D2624
+* RED - #DD5944
+*/
+
+/* BEGIN SWAL styles */
+
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
+    background-color: #78BABF !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm):focus-visible {
+    box-shadow: 0 0 0 3px #78BABF80 !important;
+}
+
+/* END SWAL styles */
+
+html,
+body {
+    margin : 0;
+    padding: 0;
+    width  : 100%;
+    height : 100%;
+}
+
+body {
+    color         : #1D2624;
+    font-family   : 'Tajawal';
+    font-weight   : 300;
+    letter-spacing: 1px;
+    background    : #E7E5DD;
+}
+
+a {
+    text-decoration: none;
+    color          : #E7E5DD;
+}
+
+a:hover {
+    color: #78BABF
+}
+
+a.button {
+    display       : inline-block;
+    background    : #697879;
+    border        : 5px double #E7E5DD;
+    padding       : 17px 25px 13px;
+    font-family   : 'Yanone Kaffeesatz';
+    font-size     : 18px;
+    letter-spacing: 2px;
+    font-weight   : 400;
+    line-height   : 18px;
+    text-transform: uppercase;
+}
+
+a.button:hover {
+    border-color: #78BABF
+}
+
+a.button img {
+    vertical-align: middle;
+    margin        : -3px 6px 0 0;
+}
+
+.button-img {
+    width          : 18px;
+    height         : 18px;
+    display        : inline-block;
+    background     : center center no-repeat;
+    background-size: contain;
+    vertical-align : middle;
+    margin         : -3px 6px 0 0;
+}
+
+.button-img.whatsapp {
+    background-image: url('images/icons/whatsapp-round-white.png')
+}
+
+.button:hover .button-img.whatsapp {
+    background-image: url('images/icons/whatsapp-round-blue.png')
+}
+
+.button-img.mouse {
+    background-image: url('images/icons/mousew.png')
+}
+
+.button:hover .button-img.mouse {
+    background-image: url('images/icons/mouse-blue.png')
+}
+
+.button-img.instagram {
+    background-image: url('images/icons/instagram-white.png')
+}
+
+.button:hover .button-img.instagram {
+    background-image: url('images/icons/instagram-blue.png')
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    text-align : center;
+}
+
+h3 {
+    padding  : 30px 0 0 0;
+    font-size: 1.6em;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+
+/* ========== HEADER ========== */
+
+header {
+    position: absolute;
+    z-index : 100;
+    width   : 100%;
+}
+
+#logo {
+    display : inline-block;
+    position: absolute;
+    top     : 25px;
+    left    : 40px;
+    z-index : 100;
+}
+
+header nav {
+    text-align : center;
+    margin     : 55px 0 0 180px;
+    font-weight: 400;
+}
+
+header nav .social a {
+    display: none
+}
+
+nav a.current {
+    border-bottom: 2px solid #E7E5DD
+}
+
+nav a.current:hover {
+    color: #E7E5DD
+}
+
+nav a {
+    padding-bottom: 5px
+}
+
+nav a,
+header a.button {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family   : 'Yanone Kaffeesatz';
+    font-size     : 18px;
+    margin        : 0 20px;
+}
+
+header .book-now {
+    margin        : 34px 20px 0 0;
+    float         : right;
+    display       : inline-block;
+    vertical-align: middle;
+}
+
+header .book-now .whatsapp {
+    vertical-align: middle;
+    padding-top   : 26px;
+}
+
+header a.button {
+    vertical-align: middle;
+    display       : inline-block;
+}
+
+header #menu-icon {
+    display: none
+}
+
+/* HIDE JUNGLEBEE BOOK BUTTON */
+/*
+header nav { margin: 55px 0 0 0 !important }
+header .book-now { display: none !important }
+.junglebee-widget-book-now-button { display: none !important }
+#typhoon-cargo .footer-buttons .junglebee-widget-book-now-button { display: inline-block !important }
+*/
+
+
+
+
+
+/* ========== MASTHEAD ========== */
+#masthead {
+    height         : 100%;
+    text-align     : center;
+    position       : relative;
+    z-index        : 10;
+    color          : #E7E5DD;
+    background     : #1D2624 center center no-repeat;
+    background-size: cover;
+}
+
+#index #masthead {
+    background-image: url('images/bgs/bg11.jpg')
+}
+
+#schedule #masthead {
+    background-image: url('images/bgs/bg17.jpg')
+}
+
+#fares #masthead {
+    background-image: url('images/bgs/bg16.jpg')
+}
+
+#tours-charters #masthead {
+    background-image: url('images/bgs/bg4.jpg')
+}
+
+#typhoon-cargo #masthead {
+    background-image: url('images/bgs/bg18.jpg')
+}
+
+#about #masthead {
+    background-image: url('images/bgs/bg1.jpg')
+}
+
+#gallery #masthead {
+    background-image: url('images/bgs/bg7.jpg')
+}
+
+#bg-cover {
+    position     : absolute;
+    left         : 0;
+    top          : 0;
+    z-index      : 100;
+    width        : 100%;
+    height       : 100%;
+    /* background: #1D2624 center center no-repeat; */
+    background   : #000;
+    opacity      : 20%;
+}
+
+#masthead-content {
+    display    : block;
+    position   : absolute;
+    top        : 40%;
+    width      : 100%;
+    margin-top : -100px;
+    text-align : center;
+    z-index    : 1000;
+    text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#masthead h1 {
+    font-size     : 5em;
+    letter-spacing: 2px;
+    padding       : 0px;
+    margin        : 0;
+}
+
+#masthead h2 {
+    margin     : 10px 0 40px;
+    font-weight: 300;
+    text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.75);
+    font-family: 'Tajawal';
+}
+
+#scroll-down {
+    text-transform           : uppercase;
+    font-size                : 0.8em;
+    position                 : absolute;
+    bottom                   : 50px;
+    left                     : 50%;
+    margin-left              : -25px;
+    animation-name           : floating;
+    animation-duration       : 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#scroll-down p {
+    margin-bottom: 0;
+    opacity      : 0;
+    transition   : all 1000ms;
+}
+
+#scroll-down:hover p {
+    opacity   : 1;
+    color     : #E7E5DD;
+    transition: all 300ms;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* ========== GLOBAL CONTENT ========== */
+#wrapper {
+    width    : 94%;
+    max-width: 1000px;
+    margin   : 0 auto;
+}
+
+#wrapper a:not(.button) {
+    color: #DD5944
+}
+
+section {
+    padding: 50px 0
+}
+
+section:not(:last-child) {
+    border-bottom: 1px solid #CCC
+}
+
+section p {
+    margin   : 15px 0 20px;
+    font-size: 1.2em;
+}
+
+section p.small {
+    font-size: 1em
+}
+
+section h2 {
+    font-size     : 2.2em;
+    margin        : 0;
+    padding-bottom: 20px;
+}
+
+section h2:not(:first-child) {
+    margin-top: 80px;
+}
+
+section.img-right img {
+    float: right
+}
+
+section.img-right h2 {
+    text-align: left;
+}
+
+section.img-left p,
+section.img-right p {
+    margin: 0 0 40px 0
+}
+
+section.img-left img {
+    float: left
+}
+
+section.img-left {
+    text-align: right
+}
+
+section.img-left h2 {
+    text-align: right;
+}
+
+table {
+    margin: 30px auto 40px
+}
+
+table th {
+    background: #78BABF;
+    text-align: left;
+}
+
+table tr:nth-child(odd) {
+    background: #CDD8D9
+}
+
+table td,
+table th {
+    padding: 12px 50px 7px 20px
+}
+
+.table-wrapper {
+    width     : 100%;
+    overflow-x: auto;
+}
+
+ul {
+    padding   : 0;
+    list-style: none;
+}
+
+ul li {
+    margin: 10px 0
+}
+
+.italic {
+    font-style: italic
+}
+
+b {
+    font-weight: 500
+}
+
+.large {
+    font-size: 1.2em;
+}
+
+.no-wrap {
+    white-space: nowrap
+}
+
+
+
+
+
+/* ========== INDEX ========== */
+#index section {
+    min-height    : 400px;
+    vertical-align: middle;
+}
+
+#index section img {
+    max-width: 90%;
+    height   : auto !important;
+    border   : 10px double #697879;
+}
+
+
+.abhta-para-container {
+    display    : flex;
+    align-items: center;
+    padding    : 0 100px;
+    text-align : justify;
+}
+
+.abhta-para-container img {
+    border   : none !important;
+    max-width: 200px !important;
+}
+
+@media screen and (max-width: 991px) {
+    .abhta-para-container {
+        padding: 0;
+    }
+
+    .abhta-para-container img {
+        max-width: 150px !important;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .abhta-para-container {
+        flex-direction: column;
+        text-align    : center;
+    }
+}
+
+
+/* ========== SCHEDULE ========== */
+#schedule-contact {
+    text-align: center
+}
+
+
+
+
+
+
+
+/* ========== GALLERY ========== */
+.wrap,
+#slider {
+    width: 100%;
+}
+
+#slider {
+    height: 65vh;
+}
+
+.wrap {
+    height     : 80vh;
+    position   : relative;
+    padding-top: 25px;
+    margin-top : 50px;
+    background : center center no-repeat url("images/icons/loader.gif");
+}
+
+.slide {
+    width              : 100%;
+    height             : 100%;
+    position           : relative;
+    background-size    : contain;
+    background-position: center;
+    background-repeat  : no-repeat;
+}
+
+.slide1 {
+    background-image: url("images/gallery/BBAR-Barbuda-BirdSanctuary-JMR11D7K2395.jpg")
+}
+
+.slide2 {
+    background-image: url("images/gallery/BARX-AerialDJI-1707JMFR0940-Edit.jpg")
+}
+
+.slide3 {
+    background-image: url("images/gallery/BARX-BarbudaExpress-Air-1907JMR80792.jpg")
+}
+
+.slide4 {
+    background-image: url("images/gallery/BARX-TyphoonExpress-Air-1907JMR80427.jpg")
+}
+
+.slide5 {
+    background-image: url("images/gallery/Animal-BeachHorsebackRiding2-JRA6855.jpg")
+}
+
+.slide6 {
+    background-image: url("images/gallery/BBAR-Barbuda-Flora-JMR11D7K1583.jpg")
+}
+
+.slide7 {
+    background-image: url("images/gallery/BBAR-Barbuda-Hiking-JMR11D7K0542.jpg")
+}
+
+.slide8 {
+    background-image: url("images/gallery/BBAR-Barbuda-JMR11D7K0254.jpg")
+}
+
+.slide9 {
+    background-image: url("images/gallery/BBAR-Barbuda-LagoonDock-JMR11D7K1260.jpg")
+}
+
+.slide10 {
+    background-image: url("images/gallery/BBAR-Barbuda-MartelloTower-JMR11D7K1872.jpg")
+}
+
+.slide11 {
+    background-image: url("images/gallery/BBAR-Barbuda-Roads-JMR11D7K0354.jpg")
+}
+
+.slide12 {
+    background-image: url("images/gallery/BELLE-BarbudaBelle-1505JMR6691.jpg")
+}
+
+.slide13 {
+    background-image: url("images/gallery/BELLE-BarbudaBelle-1505JMR7147.jpg")
+}
+
+.slide14 {
+    background-image: url("images/gallery/BELLE-BarbudaBelle-1505JMR7230.jpg")
+}
+
+.slide15 {
+    background-image: url("images/gallery/CCREW-Calz2014-Barbuda-PrincessDiana-1411JMR5045.jpg")
+}
+
+.slide16 {
+    background-image: url("images/gallery/JRA_6987.jpg")
+}
+
+.slide17 {
+    background-image: url("images/gallery/JRA_7019.jpg")
+}
+
+.slide18 {
+    background-image: url("images/gallery/JRA_7231.jpg")
+}
+
+.slide19 {
+    background-image: url("images/gallery/JRA_7319.jpg")
+}
+
+.slide20 {
+    background-image: url("images/gallery/TS-Calz2014-Barbuda-1411JMR2690.jpg")
+}
+
+.slide-content {
+    position  : absolute;
+    top       : -75px;
+    left      : 0;
+    width     : 100%;
+    height    : 50px;
+    font-style: italic;
+}
+
+.arrow {
+    position: absolute;
+    top     : 0;
+    z-index : 10;
+    width   : 100px;
+    height  : 100%;
+    cursor  : pointer;
+}
+
+#arrow-left {
+    left: 0
+}
+
+#arrow-right {
+    right: 0
+}
+
+.arrow .arrow-image {
+    height      : 0;
+    width       : 0;
+    border-style: solid;
+    position    : absolute;
+    top         : 50%;
+    margin-top  : -35px;
+    border-color: transparent rgba(255, 255, 255, 0.5) transparent rgba(255, 255, 255, 0.5);
+}
+
+#arrow-left .arrow-image {
+    border-width: 30px 40px 30px 0;
+    left        : 30px;
+}
+
+#arrow-right .arrow-image {
+    border-width: 30px 0 30px 40px;
+    right       : 30px;
+}
+
+.arrow:hover .arrow-image {
+    border-color: transparent rgba(255, 255, 255, 1) transparent rgba(255, 255, 255, 1)
+}
+
+.arrow:focus .arrow-image {
+    border-color: transparent rgba(255, 255, 255, 0.5) transparent rgba(255, 255, 255, 0.5)
+}
+
+
+
+
+
+
+/* ========== FOOTER ========== */
+footer {
+    background: #444;
+    color     : #E7E5DD;
+    text-align: center;
+    padding   : 100px 0;
+}
+
+footer nav {
+    margin: 40px 0
+}
+
+footer ul.contact {
+    padding: 0
+}
+
+footer nav.social {
+    margin-bottom: 0
+}
+
+footer nav.social a {
+    margin: 10px
+}
+
+footer .footer-buttons a {
+    margin: 10px 8px
+}
+
+footer .logo {
+    opacity: 0.7;
+}
+
+.abhta-footer-container {
+    display    : flex;
+    margin     : auto;
+    width      : max-content;
+    align-items: center;
+}
+
+.abhta-footer-img-container {
+    max-width: 200px;
+}
+
+.abhta-footer-img-container img {
+    height: auto;
+    width : 100%;
+}
+
+
+@media screen and (max-width: 991px) {
+    .abhta-footer-container {
+        flex-direction: column;
+    }
+
+    .abhta-footer-img-container {
+        max-width: 150px;
+    }
+
+    .abhta-footer-container h3 {
+        padding   : 0;
+        margin-top: 0;
+    }
+}
+
+
+
+
+/* ========== SCREENS UNDER 1050px ========== */
+@media only screen and (max-width: 1050px) {
+
+    header {
+        background-color: transparent;
+        height          : 80px;
+        transition      : all 300ms;
+    }
+
+    header .book-now {
+        display: none
+    }
+
+    header #menu-icon {
+        display : inline-block;
+        position: absolute;
+        right   : 30px;
+        top     : 38px;
+        z-index : 100;
+    }
+
+    header nav {
+        display     : none;
+        margin      : 0;
+        padding-top : 120px;
+        padding-left: 0;
+        position    : absolute;
+        top         : 0;
+        bottom      : 0;
+        z-index     : 10;
+        width       : 100%;
+        height      : 100%;
+    }
+
+    header nav a {
+        display  : block;
+        color    : #DD5944;
+        padding  : 20px 0;
+        font-size: 1.4em;
+    }
+
+    header.menu-showing nav {
+        display: block
+    }
+
+    header.menu-showing {
+        position        : fixed;
+        width           : 100%;
+        height          : 100%;
+        background-color: #E7E5DD;
+    }
+
+    header nav a.current {
+        border: none;
+        color : #78BABF !important;
+    }
+
+    header nav .social a {
+        display: inline-block
+    }
+
+}
+
+
+
+
+
+
+/* ========== SCREENS UNDER 850px ========== */
+@media only screen and (max-width: 850px) {
+
+    section.img-right img {
+        float: none
+    }
+
+    section.img-left img {
+        float: none
+    }
+
+    section.img-left,
+    section.img-right {
+        text-align: center
+    }
+
+    section.img-right h2,
+    section.img-left h2 {
+        text-align: center;
+        margin-top: 30px;
+        padding   : 0;
+    }
+
+    #index section img {
+        max-width: 90%;
+        width    : 390px;
+        height   : 390px;
+    }
+
+    table td,
+    table th {
+        padding: 12px 20px 7px 20px
+    }
+
+}
+
+
+
+
+
+
+/* ========== SCREENS UNDER 650px ========== */
+@media only screen and (max-width: 650px) {
+
+    footer nav.main a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    #masthead h1 {
+        font-size     : 4em;
+        letter-spacing: 2px;
+    }
+
+    #masthead h2 {
+        font-size    : 1.5em;
+        margin-bottom: 30px;
+    }
+
+    #masthead-content {
+        margin-top: -70px
+    }
+
+
+}
+
+
+
+
+
+
+/* ========== SCREENS UNDER 460px ========== */
+@media only screen and (max-width: 460px) {
+
+    #logo {
+        margin-left: 20px
+    }
+
+    #masthead h1 {
+        font-size     : 2.8em;
+        letter-spacing: 2px;
+    }
+
+    #masthead h2 {
+        font-size    : 1.2em;
+        margin-bottom: 20px;
+    }
+
+    #masthead-content {
+        margin-top: -50px
+    }
+
+}
