@@ -20,7 +20,7 @@
 <body id="about">
 
     <header>
-        <a href="index.html" id="logo" class="image-link-hover"><img src="images/barbuda_express-logo-white.png" alt="barbuda_express-logo" width="110" height="89"></a>
+        <a href="index.html" id="logo" class="image-link-hover"><img src="images/007-SeaBridge-TempLogo-Web-v1.png" alt="barbuda_express-logo" width="180" height="130"></a>
         <div class="book-now">
             <a href="#" class="button junglebee-widget-book-now-button" data-junglebee-widget-id="8aUEvhV">Book Now</a>
         </div>
@@ -52,11 +52,11 @@
 
     <div id="wrapper" class="center">
         <section>
-            <h2 style="color:#DD5944;padding-bottom: 10px;">Important - Barbuda Express no longer offers tours.</h2>
+            <h2 style="color:#DD5944;padding-bottom: 10px;">Important - Sea Bridge Ferries does not offer tours.</h2>
         </section>
         <section>
             <h2>Hillside Tours</h2>
-            <p>Barbuda Express has worked closely with Hillside Tours for the last 3 years and recommends them for your Barbuda tour. Highlights in Barbuda include the frigate bird colony, miles of pristine white beaches and warm water snorkeling in the crystal clear Caribbean sea.</p>
+            <p>Sea Bridge Ferries has worked closely with Hillside Tours for the last 3 years and recommends them for your Barbuda tour. Highlights in Barbuda include the frigate bird colony, miles of pristine white beaches and warm water snorkeling in the crystal clear Caribbean sea.</p>
             <p>The Frigate Bird Sanctuary is the largest and most magnificent in the western hemisphere. This sanctuary is only accessible by small boats with a knowledgeable tour guide. Enjoy the drumming sound of the Frigate Birds and watch out for any turtles.</p>
             <p>After the bird sanctuary, you may want to take a quick stop at one of the many Pink Sand beaches. Please note that pink sand is seasonal and dependent on sea conditions. If you want to visit the Caves at Two Foot Bay National Park, it is a short 20 minute ride with your tour guide. Lunch is available at Hillside View Bar & Grill at Two Foot Bay. When in season, the freshly caught Barbudan seafood is delicious.</p>
             <p>Contact Hillside tours at:</p>
@@ -86,7 +86,7 @@
                 <li>Baggage allowance is limited to 2 pieces per fare-paying passenger (plus personal hand bag).<br /><b>If you need to travel with more than 2 pieces of baggage, there will be a surcharge!</b></li>
                 <li>Please note our credit/debit card machine is in XCD (Eastern Caribbean $).</li>
                 <br />
-                <li>Effective October 16, 2024</li>
+                <li>Effective January 10, 2026</li>
             </ul>
         </section>
         <section>
@@ -232,7 +232,7 @@
             <h2>FAQ</h2>
 
             <h3>Where can I purchase passenger tickets?</h3>
-            <p class="small">Reservations are not required but are strongly recommended. We also recommend arriving one hour ahead of sailing time, as we sometimes have cutoff times on busy weekends and holidays. Reservations can be made <a href="#" class="junglebee-widget-book-now-button" data-junglebee-widget-id="8aUEvhV">online</a>, by phone call at +1&nbsp;(268)&nbsp;560-7989 or +1&nbsp;(268)&nbsp;764-2291 or 764-8643. By WhatsApp at +1&nbsp;(268)&nbsp;764-2291 or 764-8643 or via email at <a href="mailto:info@barbudaexpress.com">info@barbudaexpress.com</a>.</p>
+            <p class="small">Reservations are not required but are strongly recommended. We also recommend arriving one hour ahead of sailing time, as we sometimes have cutoff times on busy weekends and holidays. Reservations can be made <a href="#" class="junglebee-widget-book-now-button" data-junglebee-widget-id="8aUEvhV">online</a>, by phone call at +1&nbsp;(268)&nbsp;560-7989 or +1&nbsp;(268)&nbsp;764-2291 or 764-8643. By WhatsApp at +1&nbsp;(268)&nbsp;764-2291 or 764-8643 or via email at <a href="mailto:info@seabridgeferries.com">info@seabridgeferries.com</a>.</p>
 
             <h3>Are there different ferry schedules each seasons? Are you open year-round?</h3>
             <p class="small">Our ferries provide year-round passenger service between the islands of Antigua and Barbuda. Service is provided from St. John's Harbour (bottom of High St.) to Barbuda 7 days a week. Please <a href="schedules.html">click here for schedule</a>.</p>
@@ -251,7 +251,7 @@
             <p class="small">No! However, if you need to charter a whole boat, please reach out to us.</p>
 
             <h3>What if I lose my ticket?</h3>
-            <p class="small">Without the original tickets The Barbuda Express will be unable to reissue any passenger tickets. We do not offer refunds.</p>
+            <p class="small">Without the original tickets Sea Bridge Ferries are not able to reissue any passenger tickets. We do not offer refunds.</p>
         </section>
         <section>
             <h2>Useful Links</h2>
@@ -276,8 +276,8 @@
     </div>
 
     <footer>
-        <a href="index.html" class="logo image-link-hover"><img src="images/barbuda_express-logo-white.png"
-                alt="Barbuda Express Logo" width="110" height="89"></a>
+        <a href="index.html" class="logo image-link-hover"><img src="images/007-SeaBridge-TempLogo-Web-v1.png"
+                alt="Barbuda Express Logo" width="180" height="130"></a>
         <nav class="main">
             <a href="schedule.html">Schedule</a>
             <a href="fares.html">Fares</a>
@@ -307,7 +307,7 @@
                     <li>Everyday - 8am to 5pm</li>
                     <li><b>Mobile & WhatsApp:</b> +1 (268) 764-2291 & 764-8643</li>
                     <li><b>Office:</b> +1 (268) 560-7989</li>
-                    <li><b>Email:</b> <a href="mailto:info@barbudaexpress.com">info@barbudaexpress.com</a></li>
+                    <li><b>Email:</b> <a href="mailto:info@seabridgeferries.com">info@seabridgeferries.com</a></li>
                 </ul>
 
                 <nav class="social">
